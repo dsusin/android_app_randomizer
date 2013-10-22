@@ -1,0 +1,9 @@
+power button: 	adb shell input keyevent 26
+home button: 	adb shell input keyevent 3
+back button: 	adb shell input keyevent 4
+
+browser:		adb shell am start -a android.intent.action.VIEW -d "<url>"
+gmail:			adb shell am start -a android.intent.action.MAIN -n com.google.android.gm/.ConversationListActivityGmail
+twitter: 		adb shell am start -a android.intent.action.MAIN -n com.twitter.android/.StartActivity
+facebook:		adb shell am start -a android.intent.action.MAIN -n com.facebook.katana/.LoginActivity
+linkedin:		adb shell am start -a android.intent.action.MAIN -n com.linkedin.android/.authenticator.LaunchActivity

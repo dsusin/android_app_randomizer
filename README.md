@@ -1,4 +1,6 @@
 android_app_randomizer
 ======================
 
-Launches "random" apps with "random" parameters to the devices visible to adb
+randomizer.pl launches "random" apps with "random" parameters to the devices visible to adb
+
+Initial objective was to capture "random" traffic from mobile devices.
